@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "136529888941",
+    "project_id": "crud1-7fae1",
+    "storage_bucket": "crud1-7fae1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136529888941:android:668761fcda1446f0ef2824",
+        "android_client_info": {
+          "package_name": "com.mandeep.crud1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh6XMRL41LTNFMUexr6JvWkncd4vIGDiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
