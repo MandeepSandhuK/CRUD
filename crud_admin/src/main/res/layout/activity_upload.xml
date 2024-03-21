@@ -9,12 +9,14 @@
     android:gravity="center_vertical"
     android:background="@drawable/crudupload"
     tools:context=".UploadActivity">
+
   <LinearLayout
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:layout_marginTop="300dp"
+      android:layout_height="730dp"
       android:layout_gravity="center_horizontal"
+      android:layout_marginTop="0dp"
+      android:background="#E3E0CC"
+      android:orientation="vertical"
       android:padding="20dp">
 
     <EditText
@@ -28,54 +30,70 @@
         android:gravity="start|center_vertical"
         android:hint="Enter name"
         android:padding="16dp"
-        android:textColor="@color/lavender" />
+        android:textColor="@color/lavender"
+        android:textColorHint="#F44336"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
         android:id="@+id/uploadOperator"
-        android:background="@drawable/lavender_border"
-        android:layout_marginTop="20dp"
-        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
+        android:background="@drawable/lavender_border"
+        android:gravity="start|center_vertical"
         android:hint="Enter operator"
-        android:gravity="start|center_vertical"
-        android:textColor="@color/lavender"/>
+        android:padding="16dp"
+        android:textColor="@color/lavender"
+        android:textColorHint="#FF9800"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
         android:id="@+id/uploadLocation"
-        android:background="@drawable/lavender_border"
-        android:layout_marginTop="20dp"
-        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
+        android:background="@drawable/lavender_border"
+        android:gravity="start|center_vertical"
         android:hint="Enter location"
-        android:gravity="start|center_vertical"
-        android:textColor="@color/lavender"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:id="@+id/uploadPhone"
-        android:background="@drawable/lavender_border"
-        android:layout_marginTop="20dp"
         android:padding="16dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:hint="Enter phone number"
-        android:gravity="start|center_vertical"
-        android:textColor="@color/lavender"/>
-    <Button
+        android:textColor="@color/lavender"
+        android:textColorHint="#8BC34A"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/uploadPhone"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="Save"
-        android:id="@+id/saveButton"
-        android:textSize="18sp"
-        android:layout_marginTop="20dp"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
-        android:backgroundTint="@color/lavender"
-        app:cornerRadius = "20dp"/>
+        android:background="@drawable/lavender_border"
+        android:gravity="start|center_vertical"
+        android:hint="Enter phone number"
+        android:padding="16dp"
+        android:textColor="@color/lavender"
+        android:textColorHint="#009688"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#E91E63"
+        android:text="Save"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
   </LinearLayout>
 </LinearLayout>

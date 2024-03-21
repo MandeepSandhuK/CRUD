@@ -8,6 +8,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/deletebkg"
+    android:backgroundTint="#6EB19E"
+    android:foregroundTint="#AF4848"
     android:orientation="vertical"
     tools:context=".DeleteActivity">
 
@@ -15,7 +17,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="250dp"
+        android:background="#EACD77"
         android:orientation="vertical"
         android:padding="20dp">
 
@@ -30,7 +33,11 @@
             android:gravity="start|center_vertical"
             android:hint="Enter phone number"
             android:padding="16dp"
-            android:textColor="@color/lavender" />
+            android:textColor="@color/white"
+            android:textColorHint="#F3F0F0"
+            android:textColorLink="#EDE1E1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/mainDelete"
@@ -39,9 +46,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/lavender"
+            android:backgroundTint="#00BCD4"
             android:text="Delete"
-            android:textSize="18sp"
+            android:textSize="34sp"
+            android:textStyle="bold"
             app:cornerRadius="20dp" />
     </LinearLayout>
 </LinearLayout>

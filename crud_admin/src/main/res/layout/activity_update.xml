@@ -9,71 +9,89 @@
     android:gravity="center_vertical"
     android:background="@drawable/updatebkg"
     tools:context=".UpdateActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="300dp"
+        android:layout_height="700dp"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:background="#FDFAFD"
+        android:orientation="vertical"
         android:padding="20dp">
+
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
             android:id="@+id/updatePhone"
-            android:background="@drawable/lavender_border"
-            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
             android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:padding="16dp"
+            android:background="@drawable/lavender_border"
+            android:backgroundTint="#502222"
+            android:gravity="start|center_vertical"
             android:hint="Enter phone number"
-            android:gravity="start|center_vertical"
-            android:textColor="@color/lavender"/>
+            android:padding="16dp"
+            android:textColor="@color/purple_200"
+            android:textColorHighlight="#BA2020"
+            android:textColorHint="#FF5722"
+            android:textSize="24sp" />
+
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
             android:id="@+id/updateName"
-            android:background="@drawable/lavender_border"
-            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
             android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:padding="16dp"
+            android:background="@drawable/lavender_border"
+            android:gravity="start|center_vertical"
             android:hint="Enter name"
-            android:gravity="start|center_vertical"
-            android:textColor="@color/lavender"/>
+            android:padding="16dp"
+            android:textColor="@color/lavender"
+            android:textColorHint="#F44336"
+            android:textSize="24sp" />
+
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
             android:id="@+id/updateOperator"
-            android:background="@drawable/lavender_border"
-            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
             android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:padding="16dp"
+            android:background="@drawable/lavender_border"
+            android:gravity="start|center_vertical"
             android:hint="Enter operator"
-            android:gravity="start|center_vertical"
-            android:textColor="@color/lavender"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:id="@+id/updateLocation"
-            android:background="@drawable/lavender_border"
-            android:layout_marginTop="20dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
             android:padding="16dp"
-            android:hint="Enter location"
-            android:gravity="start|center_vertical"
-            android:textColor="@color/lavender"/>
-        <Button
+            android:textColor="@color/lavender"
+            android:textColorHint="#F44336"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/updateLocation"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="Update"
-            android:id="@+id/updateButton"
-            android:textSize="18sp"
-            android:layout_marginTop="20dp"
             android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/lavender"
-            app:cornerRadius = "20dp"/>
+            android:background="@drawable/lavender_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter location"
+            android:padding="16dp"
+            android:textColor="@color/lavender"
+            android:textColorHint="#F44336"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#F4427F"
+            android:text="Update"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp" />
     </LinearLayout>
 </LinearLayout>
