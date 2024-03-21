@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_vertical"
     android:background="@drawable/crudkot"
+    android:backgroundTint="#4B6880"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="0dp"
+        android:background="#D6D3B4"
         android:orientation="vertical"
         android:padding="20dp">
+
 
         <Button
             android:id="@+id/mainUpload"
@@ -25,9 +28,11 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/lavender"
+            android:backgroundTint="#AD0DD8"
             android:text="Upload"
-            android:textSize="18sp"
+            android:textColor="#FDEBF2F3"
+            android:textSize="34sp"
+            android:textStyle="bold"
             app:cornerRadius="20dp" />
 
         <LinearLayout
@@ -42,11 +47,11 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#F185AA"
                 android:padding="16dp"
                 android:text="Update"
-                android:textColor="@color/lavender"
-                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:textSize="24sp"
                 app:cornerRadius="20dp"
                 app:strokeColor="@color/lavender"
                 app:strokeWidth="2dp" />
@@ -59,14 +64,15 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="10dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#F381A8"
                 android:padding="16dp"
                 android:text="Delete"
-                android:textColor="@color/lavender"
-                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:textSize="24sp"
                 app:cornerRadius="20dp"
                 app:strokeColor="@color/lavender"
                 app:strokeWidth="2dp" />
         </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>
