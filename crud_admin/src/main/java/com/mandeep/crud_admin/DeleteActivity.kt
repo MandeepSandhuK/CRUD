@@ -22,7 +22,7 @@ class DeleteActivity : AppCompatActivity() {
         }
     }
     private fun deleteData(phone: String){
-        database = FirebaseDatabase.getInstance().getReference("phone directory")
+        database = FirebaseDatabase.getInstance().getReference("Users")
         database.child(phone).removeValue().addOnSuccessListener {
             binding.deletePhone.text.clear()
             Toast.makeText(this, "Deleted", Toast.LENGTH_SHORT).show()

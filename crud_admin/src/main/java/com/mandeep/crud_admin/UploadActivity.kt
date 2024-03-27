@@ -26,7 +26,7 @@ class UploadActivity : AppCompatActivity() {
             val Operator = binding.uploadOperator.text.toString()
             val Location = binding.uploadLocation.text.toString()
 
-        databasereference = FirebaseDatabase.getInstance().getReference("phone directory")
+        databasereference = FirebaseDatabase.getInstance().getReference("Users")
         val users = UserData(Name, Operator, Location, Phone)
         databasereference.child(Phone).setValue(users).addOnSuccessListener {
             binding.uploadName.text.clear()

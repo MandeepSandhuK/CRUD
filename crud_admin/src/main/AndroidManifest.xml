@@ -9,6 +9,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CRUD1">
         <activity
+            android:name=".FetchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserlistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReadData"
+            android:exported="false" />
+        <activity
             android:name=".User"
             android:exported="false" />
         <activity

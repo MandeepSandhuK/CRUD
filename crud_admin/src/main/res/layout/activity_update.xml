@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="#d6d3b4"
+    android:backgroundTint="#d6d3b4"
     android:gravity="center_vertical"
-    android:background="@drawable/updatebkg"
+    android:orientation="vertical"
     tools:context=".UpdateActivity">
 
     <LinearLayout
@@ -15,7 +15,7 @@
         android:layout_height="700dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="300dp"
-        android:background="#FDFAFD"
+        android:background="#d6d3b4"
         android:orientation="vertical"
         android:padding="20dp">
 
@@ -26,12 +26,12 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:background="@drawable/lavender_border"
-            android:backgroundTint="#502222"
+            android:background="#d6d3b4"
+            android:backgroundTint="#E092ED"
             android:gravity="start|center_vertical"
             android:hint="Enter phone number"
             android:padding="16dp"
-            android:textColor="@color/purple_200"
+            android:textColor="@color/black"
             android:textColorHighlight="#BA2020"
             android:textColorHint="#FF5722"
             android:textSize="24sp" />
@@ -43,11 +43,12 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:background="@drawable/lavender_border"
+            android:background="#d6d3b4"
+            android:backgroundTint="#F1958E"
             android:gravity="start|center_vertical"
             android:hint="Enter name"
             android:padding="16dp"
-            android:textColor="@color/lavender"
+            android:textColor="@color/black"
             android:textColorHint="#F44336"
             android:textSize="24sp" />
 
@@ -58,11 +59,12 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:background="@drawable/lavender_border"
+            android:background="#d6d3b4"
+            android:backgroundTint="#D1D887"
             android:gravity="start|center_vertical"
             android:hint="Enter operator"
             android:padding="16dp"
-            android:textColor="@color/lavender"
+            android:textColor="@color/black"
             android:textColorHint="#F44336"
             android:textSize="24sp" />
 
@@ -73,11 +75,12 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:background="@drawable/lavender_border"
+            android:background="#d6d3d4"
+            android:backgroundTint="#37BAAE"
             android:gravity="start|center_vertical"
             android:hint="Enter location"
             android:padding="16dp"
-            android:textColor="@color/lavender"
+            android:textColor="@color/black"
             android:textColorHint="#F44336"
             android:textSize="24sp" />
 

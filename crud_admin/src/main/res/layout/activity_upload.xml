@@ -19,6 +19,12 @@
       android:orientation="vertical"
       android:padding="20dp">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:src="@drawable/baseline_drive_folder_upload_24" />
+
     <EditText
         android:id="@+id/uploadName"
         android:layout_width="match_parent"
@@ -96,4 +102,5 @@
         android:textStyle="bold"
         app:cornerRadius="20dp" />
   </LinearLayout>
+
 </LinearLayout>

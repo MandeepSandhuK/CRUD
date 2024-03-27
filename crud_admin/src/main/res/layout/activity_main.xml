@@ -4,19 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/crudkot"
-    android:backgroundTint="#4B6880"
+    android:background="#d6d3b4"
+    android:backgroundTint="#d6d3b4"
     android:gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="100dp"
+        android:background="#F8ACA7"
+        android:text="CRUD1"
+        android:textColor="#0F71BF"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="366dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="0dp"
-        android:background="#D6D3B4"
+        android:layout_marginBottom="90dp"
+        android:background="#9AC7EC"
         android:orientation="vertical"
         android:padding="20dp">
 
@@ -26,9 +40,10 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
             android:layout_marginEnd="10dp"
-            android:backgroundTint="#AD0DD8"
+            android:backgroundTint="#00BCD4"
             android:text="Upload"
             android:textColor="#FDEBF2F3"
             android:textSize="34sp"
@@ -37,12 +52,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="180dp"
+            android:layout_marginBottom="100dp"
+            android:background="#F6DCDA"
             android:orientation="horizontal">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/mainUpdate"
-                android:layout_width="0dp"
+                android:layout_width="110dp"
                 android:layout_height="70dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="20dp"
@@ -51,27 +68,46 @@
                 android:padding="16dp"
                 android:text="Update"
                 android:textColor="@color/white"
-                android:textSize="24sp"
+                android:textSize="22sp"
                 app:cornerRadius="20dp"
                 app:strokeColor="@color/lavender"
                 app:strokeWidth="2dp" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/mainDelete"
-                android:layout_width="0dp"
+                android:layout_width="110dp"
                 android:layout_height="70dp"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="100dp"
                 android:layout_marginEnd="10dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F381A8"
                 android:padding="16dp"
                 android:text="Delete"
                 android:textColor="@color/white"
-                android:textSize="24sp"
+                android:textSize="22sp"
                 app:cornerRadius="20dp"
                 app:strokeColor="@color/lavender"
                 app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F185AA"
+                android:padding="16dp"
+                android:text="Fetch"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                app:cornerRadius="20dp"
+                app:strokeColor="@color/lavender"
+                app:strokeWidth="2dp" />
+
         </LinearLayout>
     </LinearLayout>
 

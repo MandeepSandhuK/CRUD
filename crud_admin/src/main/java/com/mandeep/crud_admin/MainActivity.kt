@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         binding.mainUpload.setOnClickListener(View.OnClickListener{
             val intent = Intent(this@MainActivity, UploadActivity::class.java)
             startActivity(intent)
@@ -26,6 +27,11 @@ class MainActivity : AppCompatActivity() {
         binding.mainDelete.setOnClickListener(View.OnClickListener{
             val intent = Intent(this@MainActivity, DeleteActivity::class.java)
             startActivity(intent)
+
         })
+        binding.button2.setOnClickListener(
+            {val intent = Intent(this@MainActivity,UserlistActivity::class.java)
+                startActivity(intent)
+                finish()})
     }
 }
