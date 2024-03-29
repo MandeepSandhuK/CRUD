@@ -24,7 +24,7 @@ class UpdateActivity : AppCompatActivity() {
                 }
             }
             private fun updateData(phone: String, name: String, operator: String, location: String) {
-                database = FirebaseDatabase.getInstance().getReference("Users")
+                database = FirebaseDatabase.getInstance().getReference("phone directory")
                 val user = mapOf<String,String>(
                     "name" to name,
                     "operator" to operator,

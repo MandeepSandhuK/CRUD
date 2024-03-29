@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         })
         binding.button2.setOnClickListener(
-            {val intent = Intent(this@MainActivity,UserlistActivity::class.java)
+            {val intent = Intent(this@MainActivity, UserlistActivity ::class.java)
                 startActivity(intent)
                 finish()})
     }

@@ -28,7 +28,7 @@ class UserlistActivity : AppCompatActivity() {
 
     private fun getUserData() {
 
-        dbref = FirebaseDatabase.getInstance().getReference("Users")
+        dbref = FirebaseDatabase.getInstance().getReference("phone directory")
 
         dbref.addValueEventListener(object : ValueEventListener{
 
